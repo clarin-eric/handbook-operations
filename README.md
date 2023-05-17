@@ -1,11 +1,11 @@
 **Read the docs at [clarin-eric.github.io/handbook-operations](https://clarin-eric.github.io/handbook-operations/)**
 
-# Sources for the CLARIN ERIC Software Development Guidelines
+# Sources for the CLARIN ERIC Operational Guidelines
 
 [![Publication to GitHub Pages](https://github.com/clarin-eric/handbook-operations/actions/workflows/publish.yml/badge.svg)](https://github.com/clarin-eric/handbook-operations/actions/workflows/publish.yml)
 
-This repository provides the content and configurations for the CLARIN ERIC Software
-Development Guidelines.
+This repository provides the content and configurations for the CLARIN ERIC Operaional
+Guidelines.
 
 This is currently work in progress.
 

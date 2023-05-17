@@ -1,5 +1,5 @@
-site_name: CLARIN ERIC Software Development Handbook
-site_author: CLARIN ERIC developers
+site_name: CLARIN ERIC Operational Handbook
+site_author: CLARIN ERIC sysops & developers
 site_url: https://clarin-eric.github.io/handbook-operations
 repo_url: https://github.com/clarin-eric/handbook-operations
 edit_uri: edit/main/docs/
@@ -31,21 +31,17 @@ extra_css:
   - stylesheets/clarin-colours.css
       
 nav:
-  - Home: index.md
-  - 'General guidelines':
-    - 'Documentation': general-guidelines/documentation.md
-    - 'Logging': general-guidelines/logging.md
-    - 'Configuration': general-guidelines/configuration.md
-    - 'API development': general-guidelines/api.md
-    - 'Testing': general-guidelines/testing.md
-    - 'Code lifecycle': general-guidelines/code-lifecycle.md
-    - 'Security':  general-guidelines/security.md
-    - 'Maintenance':  general-guidelines/maintenance.md
-    - 'Code licencing':  general-guidelines/code-licencing.md
-    - 'Privacy & data protection':  general-guidelines/privacy-data-protection.md
-  - 'Stacks':
-    - 'Java': stack/java.md
-    - 'Bash': stack/bash.md
-    - 'Docker': stack/docker.md
-    - 'Python': stack/python.md
-    - 'Javascript': stack/javascript.md
+  - 'Home': index.md
+  - 'Provisioning': Provisioning.md
+  - 'Container management': ContainerManagement.md
+  - 'Security': Security.md
+  - 'Logging': Logging.md
+  - 'Monitoring': Monitoring.md
+  - 'Incident handling': IncidentHandling.md
+  - 'Analytics': Analytics.md
+  - 'Deployment': Deployment.md
+  - 'Observability': Observability.md
+  - 'Infrastructure documentation': InfrastructureDocumentation.md
+  - 'Code hosting and visibility': CodeHosting_Visibility.md
+  - 'Maintenance': Maintenance.md
+  - 'External hosting': ExternalHosting.md
