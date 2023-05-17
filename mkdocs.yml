@@ -1,0 +1,51 @@
+site_name: CLARIN ERIC Software Development Handbook
+site_author: CLARIN ERIC developers
+site_url: https://clarin-eric.github.io/handbook-development
+repo_url: https://github.com/clarin-eric/handbook-development
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - navigation.footer
+    - content.action.view
+    - content.action.edit
+plugins:
+  - search
+markdown_extensions:
+  - footnotes
+  - tables
+extra:
+  social:
+    - icon: fontawesome/solid/globe
+      link: https://www.clarin.eu
+    - icon: fontawesome/brands/github
+      link: https://github.com/clarin-eric
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/CLARIN-ERIC
+extra_css:
+  - stylesheets/clarin-colours.css
+      
+nav:
+  - Home: index.md
+  - 'General guidelines':
+    - 'Documentation': general-guidelines/documentation.md
+    - 'Logging': general-guidelines/logging.md
+    - 'Configuration': general-guidelines/configuration.md
+    - 'API development': general-guidelines/api.md
+    - 'Testing': general-guidelines/testing.md
+    - 'Code lifecycle': general-guidelines/code-lifecycle.md
+    - 'Security':  general-guidelines/security.md
+    - 'Maintenance':  general-guidelines/maintenance.md
+    - 'Code licencing':  general-guidelines/code-licencing.md
+    - 'Privacy & data protection':  general-guidelines/privacy-data-protection.md
+  - 'Stacks':
+    - 'Java': stack/java.md
+    - 'Bash': stack/bash.md
+    - 'Docker': stack/docker.md
+    - 'Python': stack/python.md
+    - 'Javascript': stack/javascript.md
