@@ -1,8 +1,8 @@
-**Read the docs at [clarin-eric.github.io/handbook-development](https://clarin-eric.github.io/handbook-development/)**
+**Read the docs at [clarin-eric.github.io/handbook-operations](https://clarin-eric.github.io/handbook-operations/)**
 
 # Sources for the CLARIN ERIC Software Development Guidelines
 
-[![Publication to GitHub Pages](https://github.com/clarin-eric/handbook-development/actions/workflows/publish.yml/badge.svg)](https://github.com/clarin-eric/handbook-development/actions/workflows/publish.yml)
+[![Publication to GitHub Pages](https://github.com/clarin-eric/handbook-operations/actions/workflows/publish.yml/badge.svg)](https://github.com/clarin-eric/handbook-operations/actions/workflows/publish.yml)
 
 This repository provides the content and configurations for the CLARIN ERIC Software
 Development Guidelines.
@@ -51,7 +51,7 @@ Alternatively install `mkdocs` and `mkdocs-material` via pip and run
 ### Deployment to GitHub pages
 
 Changes pushed to the `main` branch will automatically be deployed to
-[GitHub pages](https://clarin-eric.github.io/handbook-development) using the
+[GitHub pages](https://clarin-eric.github.io/handbook-operations) using the
 [mkdocs-deploy-gh-pages action](https://github.com/mhausenblas/mkdocs-deploy-gh-pages).
 
 See the [publication workflow](./.github/workflows/publish.yml) for details.
